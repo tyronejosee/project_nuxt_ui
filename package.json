@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "tailwind": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/output.css --watch"
   },
   "dependencies": {
     "nuxt": "^3.12.2",
