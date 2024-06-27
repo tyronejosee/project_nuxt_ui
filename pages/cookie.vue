@@ -1,5 +1,5 @@
 <template>
   <section>
-    <p>About.</p>
+    <p>Cookie.</p>
   </section>
 </template>

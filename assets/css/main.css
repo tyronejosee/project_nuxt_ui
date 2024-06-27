@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-neutral-50 dark:bg-neutral-950 text-neutral-700 dark:text-neutral-300 text-sm font-normal leading-loose text-balance antialiased;
+  }
+}
